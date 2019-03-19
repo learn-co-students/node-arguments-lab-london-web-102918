@@ -11,4 +11,4 @@
     console.log( retVal)
 }
 
-  generatePassword(args[2])
+for (var i = 1; i <= args[3]; i++) generatePassword(args[2])
